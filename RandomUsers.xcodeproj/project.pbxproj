@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B25B653281FC19100AED79C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B25B652281FC19100AED79C /* User.swift */; };
+		5B25B68F281FF23800AED79C /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B25B68E281FF23800AED79C /* randomUsers.json */; };
 		5B4310DA281BE65700BB787A /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4310D9281BE65700BB787A /* RandomUsersApp.swift */; };
 		5B4310DE281BE65900BB787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4310DD281BE65900BB787A /* Assets.xcassets */; };
 		5B4310E1281BE65900BB787A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4310E0281BE65900BB787A /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		5B25B652281FC19100AED79C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B25B68E281FF23800AED79C /* randomUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = randomUsers.json; sourceTree = "<group>"; };
 		5B4310D6281BE65700BB787A /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4310D9281BE65700BB787A /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
 		5B4310DD281BE65900BB787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		5B4310CD281BE65700BB787A = {
 			isa = PBXGroup;
 			children = (
+				5B25B68E281FF23800AED79C /* randomUsers.json */,
 				5B4310D8281BE65700BB787A /* RandomUsers */,
 				5B4310E9281BE65900BB787A /* RandomUsersTests */,
 				5B4310F3281BE65900BB787A /* RandomUsersUITests */,
@@ -242,6 +245,7 @@
 			files = (
 				5B4310E1281BE65900BB787A /* Preview Assets.xcassets in Resources */,
 				5B4310DE281BE65900BB787A /* Assets.xcassets in Resources */,
+				5B25B68F281FF23800AED79C /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
