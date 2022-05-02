@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B25B653281FC19100AED79C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B25B652281FC19100AED79C /* User.swift */; };
 		5B4310DA281BE65700BB787A /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4310D9281BE65700BB787A /* RandomUsersApp.swift */; };
 		5B4310DE281BE65900BB787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4310DD281BE65900BB787A /* Assets.xcassets */; };
 		5B4310E1281BE65900BB787A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4310E0281BE65900BB787A /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B25B652281FC19100AED79C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5B4310D6281BE65700BB787A /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4310D9281BE65700BB787A /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
 		5B4310DD281BE65900BB787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				5B4310D9281BE65700BB787A /* RandomUsersApp.swift */,
 				5B431107281BF86100BB787A /* UsersView.swift */,
+				5B25B652281FC19100AED79C /* User.swift */,
 				5B431103281BE8FB00BB787A /* UserFetchingClient.swift */,
 				5B431105281BF2CA00BB787A /* UserData.swift */,
 				5B4310DD281BE65900BB787A /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				5B431108281BF86100BB787A /* UsersView.swift in Sources */,
 				5B4310DA281BE65700BB787A /* RandomUsersApp.swift in Sources */,
 				5B431106281BF2CA00BB787A /* UserData.swift in Sources */,
+				5B25B653281FC19100AED79C /* User.swift in Sources */,
 				5B431104281BE8FB00BB787A /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

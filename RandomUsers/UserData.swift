@@ -16,7 +16,7 @@ import Foundation
 class UserData: ObservableObject {
     
     // We declare the property users with the @Published modifier to update any subscribers. UsersView will be updated with any change to its @Published users property.
-    @Published var users: String = ""
+    @Published var users: [User] = []
     
     // We add an initializer that will generate random users by calling the UserFetchingClient.getUsers() function call.
     // We use try and await keywords because getUsers() is an asynchronous throwing function.
