@@ -22,6 +22,7 @@ struct Response: Decodable {
 struct User: Decodable, Identifiable {
     let id: String
     let name: Name
+    let picture: Picture
     
     // (6) Computed property to make it easier to display the full name.
     var fullName: String {
@@ -34,13 +35,14 @@ struct User: Decodable, Identifiable {
         name = try values.decode(Name.self, forKey: .name)
         let loginInfo = try values.nestedContainer(keyedBy: LoginInfoCodingKeys.self, forKey: .login)
         id = try loginInfo.decode(String.self, forKey: .uuid)
-        
+        picture = try values.decode(Picture.self, forKey: .picture)
     }
     
     // (5.1) We need to declare this CodingKeys because there is not an "id" key on the JSON response, instead we have a "login" key.
     enum CodingKeys: String, CodingKey {
         case login
         case name
+        case picture
     }
     
     // (5.2) It's not enough to add a raw value for the uuid case because it's nested so we do (5.3)
@@ -53,6 +55,12 @@ struct Name: Decodable {
     let title: String
     let first: String
     let last: String
+}
+
+struct Picture: Decodable {
+    let large: String
+    let medium: String
+    let thumbnail: String
 }
 
 
